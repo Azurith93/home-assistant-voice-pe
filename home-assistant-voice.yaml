@@ -1,4 +1,4 @@
-substitutions:
+vsubstitutions:
   # Phases of the Voice Assistant
   # The voice assistant is ready to be triggered by a wake word
   voice_assist_idle_phase_id: '1'
@@ -1592,7 +1592,7 @@ micro_wake_word:
   models:
     - model: https://github.com/kahrendt/microWakeWord/releases/download/okay_nabu_20241226.3/okay_nabu.json
       id: okay_nabu
-    - model: https://github.com/Snowcrash55/micro-wake-word-glados/raw/main/models/GLaDOS.json
+    - model: https://github.com/Azurith93/micro-wake-word-glados/releases/download/latest/GLaDOS.json
       id: GLaDOS
     - model: hey_jarvis
       id: hey_jarvis
